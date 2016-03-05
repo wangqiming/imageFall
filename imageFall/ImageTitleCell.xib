@@ -29,16 +29,14 @@
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="A8D-UL-nrW" firstAttribute="leading" secondItem="nA8-Su-qmU" secondAttribute="leading" id="7Sk-PV-iwQ"/>
+                    <constraint firstItem="Ye7-S6-IJN" firstAttribute="top" secondItem="nA8-Su-qmU" secondAttribute="top" constant="10" id="OkE-ky-FB8"/>
                     <constraint firstAttribute="bottom" secondItem="Ye7-S6-IJN" secondAttribute="bottom" constant="10" id="Vsd-NM-d3K"/>
                     <constraint firstAttribute="trailing" secondItem="Ye7-S6-IJN" secondAttribute="trailing" constant="10" id="XJI-K3-Cm0"/>
                     <constraint firstItem="Ye7-S6-IJN" firstAttribute="leading" secondItem="A8D-UL-nrW" secondAttribute="trailing" constant="10" id="j4A-B3-GPv"/>
                     <constraint firstItem="A8D-UL-nrW" firstAttribute="centerY" secondItem="nA8-Su-qmU" secondAttribute="centerY" id="vF6-ZI-JIS"/>
                 </constraints>
             </tableViewCellContentView>
-            <constraints>
-                <constraint firstItem="Ye7-S6-IJN" firstAttribute="top" secondItem="g2s-C7-crK" secondAttribute="top" constant="10" id="1n1-mq-aMP"/>
-                <constraint firstItem="A8D-UL-nrW" firstAttribute="leading" secondItem="g2s-C7-crK" secondAttribute="leading" id="i6r-Od-ZJw"/>
-            </constraints>
             <connections>
                 <outlet property="image" destination="A8D-UL-nrW" id="UVy-qp-Iwa"/>
                 <outlet property="title" destination="Ye7-S6-IJN" id="rVq-YS-aCL"/>
