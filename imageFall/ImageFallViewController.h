@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageFallViewController.h
 //  imageFall
 //
 //  Created by wangqiming on 16/3/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ImageFallViewController : UITableViewController
 
 @end
-
