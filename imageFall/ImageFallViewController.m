@@ -25,6 +25,9 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 44.0;
+    
     _imageArr = @[@"http://edu100.bs2cdn.100.com/98fbee4cfdb67214bdb9f4c0a0a2780a45559858.jpg",
                   @"http://edu100.bs2cdn.100.com/896203df2b3d112680feb8dc40bdc0c275b67e2d.jpg",
                   @"http://edu100.bs2cdn.100.com/6e7dbe2a171952d0a31c2ad239a47c2d03313503.jpg",
@@ -56,14 +59,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.imageArr count];
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 180;
-}
-
--(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
